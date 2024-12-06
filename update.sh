@@ -36,7 +36,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget -q https://raw.githubusercontent.com/floravpn/sctun/main/kikitolan/mukung/menu.zip
+    wget -q https://raw.githubusercontent.com/floravpn/sctun/main/kikitolan/menu.zip
     unzip menu.zip
     chmod +x menu/*
     enc menu/*
