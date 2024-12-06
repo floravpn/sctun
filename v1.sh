@@ -955,7 +955,7 @@ print_success "All Packet"
 function menu(){
     clear
     print_install "Installing the Menu Packet"
-    wget -q ${REPO}kikitolan/mukung/menu.zip
+    wget -q ${REPO}kikitolan/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
